@@ -1,4 +1,12 @@
-const reverseString = function() {
+const reverseString = function(string) {
+
+    let reversedString = '';
+
+    for (let i = string.length; i > -1 ; i--){
+        reversedString = reversedString.concat(string.charAt(i));
+    }
+
+    return reversedString;
 
 };
 
